@@ -20,4 +20,4 @@ student.name = "Faysal";
 
 
 const country : [string, number] = ["Bangaldesh", 2.445];
-console.log(country);
+// console.log(country);
