@@ -16,4 +16,8 @@ const student: {name:string, age: number} ={
     age: 24
 }
 student.name = "Faysal";
-console.log(student);
+
+
+
+const country : [string, number] = ["Bangaldesh", 2.445];
+console.log(country);

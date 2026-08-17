@@ -9,4 +9,5 @@ const student = {
     age: 24
 };
 student.name = "Faysal";
-console.log(student);
+const country = ["Bangaldesh", 2.445];
+console.log(country);
