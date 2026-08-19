@@ -72,4 +72,10 @@ const login = (user) => {
 // console.log(login({name:"Nasif", age: 24, email: "nasifkhan", password: "12345"}));
 const nums = [1, 2, 3, 4, 5, 6, 7];
 const filter = nums.filter(num => num % 2 !== 1);
-// console.log(filter);
+const total = (acc) => {
+    const sum = acc.reduce((acc, curr) => {
+        return acc + curr;
+    }, 0);
+    return sum;
+};
+console.log(total(nums));
